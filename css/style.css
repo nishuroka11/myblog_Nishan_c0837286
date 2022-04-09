@@ -1,0 +1,34 @@
+/* offset */
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 1178px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Grape Nuts', cursive;
+}
+ul,li{
+    list-style: none;
+    display: inline-block;
+}
+.clearfix{
+    clear: both;
+}
+/* header */
+header{
+    padding: 20px 0;
+}
+header .left{
+    width: 30%;
+    float: left;
+}
+header .right{
+    width: 70%;
+    float: right;
+}
